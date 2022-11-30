@@ -45,3 +45,7 @@ Server started on PORT: 4000 in DEVELOPMENT mode.
 6//#2
 npm i nodemon --save-dev
 >>npm run dev
+
+//git to github
+ls -al
+ cd .git
