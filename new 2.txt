@@ -1,0 +1,47 @@
+Microsoft Windows [Version 10.0.19045.2251]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\pheak\OneDrive\Nodejs>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (nodejs)
+version: (1.0.0) shopit
+Invalid version: "shopit"
+version: (1.0.0)
+description: full ecommerce site using mern
+entry point: (index.js) server.js
+test command:
+git repository:
+keywords:
+author: Ghulam Abbas
+license: (ISC)
+About to write to C:\Users\pheak\OneDrive\Nodejs\package.json:
+
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "full ecommerce site using mern",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ghulam Abbas",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) 5
+npm i express dotenv mongoose
+C:\Users\pheak\OneDrive\Nodejs>node backend/server.js
+Server started on PORT: 4000 in DEVELOPMENT mode.
+6//#2
+npm i nodemon --save-dev
+>>npm run dev
